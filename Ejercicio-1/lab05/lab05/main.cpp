@@ -27,6 +27,8 @@ int main(int argc, char** argv) {
     struct Docente docentes[MAX_DATOS];
 
     llenarArreglosyEstructuras(nombre_al, codAlum, distrito, especialidad, facultad, escala, valorCred, credMatri, cant_Alum, cant_Docentes, docentes);
+   
+    escribirReporte(nombre_al, codAlum, distrito, especialidad, facultad, escala, valorCred, credMatri, cant_Alum,cant_Docentes, docentes);
     return 0;
 }
 
