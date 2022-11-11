@@ -6,6 +6,7 @@
 
 #include "docentes.hpp"
 #include "funciones.hpp"
+
 void llenarAlumnos(ifstream &arch, char *&nombre, int &codigo, char *&distr, char *&espe, char *&facu, int &escal, double &valCred, double &creMatri) {
     char nombres[100];
     char apellido_pat[50];
@@ -109,14 +110,14 @@ void llenarArreglosyEstructuras(char **nombre_al, int *codAlum, char **distrito,
         } else if (dato == 'D') {
             llenarDocentes(archMatr, docente);
             docentes[cant_Docentes] = docente;
-//            cout << docentes[cant_Docentes].codigo << endl;
-//            cout << docentes[cant_Docentes].nombre << endl;
-//            cout << docentes[cant_Docentes].distrito << endl;
-//            cout << docentes[cant_Docentes].categoria << endl;
-//            cout << docentes[cant_Docentes].dedicacion << endl;
-//            cout << docentes[cant_Docentes].seccion << endl;
-//            cout << docentes[cant_Docentes].grado << endl;
-//            cout << docentes[cant_Docentes].sueldo << endl;
+            //            cout << docentes[cant_Docentes].codigo << endl;
+            //            cout << docentes[cant_Docentes].nombre << endl;
+            //            cout << docentes[cant_Docentes].distrito << endl;
+            //            cout << docentes[cant_Docentes].categoria << endl;
+            //            cout << docentes[cant_Docentes].dedicacion << endl;
+            //            cout << docentes[cant_Docentes].seccion << endl;
+            //            cout << docentes[cant_Docentes].grado << endl;
+            //            cout << docentes[cant_Docentes].sueldo << endl;
             cant_Docentes++;
         }
     }
@@ -130,20 +131,46 @@ void escribirReporte(char **nombre_al, int *codAlum, char **distrito, char **esp
         exit(1);
     }
     
-    archReporte<<setw(50)<< "Repoerte de Miembros" << endl;
+    archReporte << setw(50) << "Repoerte de Miembros" << endl;
     escribirLinea(archReporte, 200, '=');
-    archReporte << "Reporte por Alumnos"<<endl;
-    escribirLinea(archReporte, 200, '-');
-    archReporte<<"CODIGO"<<setw(3)<<" "<<"NOMRE"<<setw(50)<<" "<<"DISTRITO"<<setw(15)<<"ESPECIALIDAD"<<setw(10)<<"FACULTAD";
-    archReporte<<setw(10)<<"ESCALA"<<setw(10)<<"ValorCred"<<setw(10)<<"CredMatri"<<setw(10)<<"PAGO"<<endl;
-
+    escribirReporteAlumnos(archReporte, nombre_al,codAlum,distrito,especialidad,facultad, escala,valorCred,credMatri,cant_Alum);
+    escribirReporteDocente(archReporte,cant_Docentes,docentes);
     
+}
+
+void escribirReporteAlumnos(ofstream &archReporte, char **nombre_al, int *codAlum, char **distrito, char **especialidad, char **facultad, int *escala, double *valorCred,
+        double *credMatri, int cant_Alum) {
+    archReporte << "Reporte por Alumnos" << endl;
+    escribirLinea(archReporte, 200, '-');
+    archReporte << "CODIGO" << setw(20) << " " << "NOMBRE" << setw(30) << " " << "DISTRITO" << setw(35) << "ESPECIALIDAD" << setw(21) << "FACULTAD";
+    archReporte << setw(11) << "ESCALA" << setw(10) << "ValorCred" << setw(12) << "CredMatri" << setw(12) << "PAGO" << endl;
+    escribirLinea(archReporte, 200, '=');
+
     for (int i = 0; i < cant_Alum; i++) {
-        archReporte<<codAlum[i]<<setw(5)<<" "<<nombre_al[i]<<setw(45-strlen(nombre_al[i]))<<" "<<distrito[i]<<setw(35-strlen(distrito[i]))<<" ";
-                    archReporte<<especialidad[i]<<setw(25-strlen(especialidad[i]))<<" "<<facultad[i]<<setw(20-strlen(facultad[i]))<<" "<<escala[i]<<setw(10)<<" "<<valorCred[i]<<setw(6)<<" ";
-                    archReporte<<setprecision(8)<<credMatri[i]<<setw(10)<<" "<<credMatri[i]*valorCred[i]<<endl;
+        archReporte << codAlum[i] << setw(5) << " " << nombre_al[i] << setw(45 - strlen(nombre_al[i])) << " " << distrito[i] << setw(35 - strlen(distrito[i])) << " ";
+        archReporte << especialidad[i] << setw(25 - strlen(especialidad[i])) << " " << facultad[i] << setw(15 - strlen(facultad[i])) << " " << escala[i] << setw(5) << " ";
+        archReporte << fixed << setprecision(2) << valorCred[i] << setw(6) << " ";
+
+        archReporte << fixed << setw(5) << credMatri[i] << setw(10 - (credMatri[i] / 100)) << " ";
+
+        archReporte << setprecision(3) << credMatri[i] * valorCred[i] << endl;
     }
-    escribirLinea(archReporte,200,'=');
+    escribirLinea(archReporte, 200, '=');
+
+}
+void escribirReporteDocente(ofstream &archReporte, int cant_Docentes, struct Docente * docentes){
+    archReporte << "Reporte por Profesores" << endl;
+    escribirLinea(archReporte, 200, '-');
+    archReporte << "CODIGO" << setw(20) << " " << "NOMBRE" << setw(30) << " " << "DISTRITO" << setw(35) << "CATEGORIA" << setw(21) << "DEDICACION";
+    archReporte << setw(11) << "SECCION" << setw(10) << "GRADO" << setw(12) << "SUELDO" << endl;
+    escribirLinea(archReporte, 200, '=');
+    for (int i = 0; i < cant_Docentes; i++) {
+        archReporte << docentes[cant_Docentes].codigo << endl;
+//                setw(5) << " " << docentes[cant_Docentes].nombre  << setw(45 - strlen(docentes[cant_Docentes].nombre)) << " " << docentes[cant_Docentes].distrito << setw(10) << " ";
+//        archReporte << docentes[cant_Docentes].categoria << setw(25) << " " << docentes[cant_Docentes].dedicacion << setw(15) << " " << docentes[cant_Docentes].seccion << setw(5) << " ";
+//        archReporte << fixed << setprecision(2) << docentes[cant_Docentes].sueldo << endl;
+    }
+
 
 }
 

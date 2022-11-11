@@ -26,5 +26,9 @@ void llenarArreglosyEstructuras(char **nombre_al, int *codAlum, char **distrito,
 void escribirReporte(char **nombre_al, int *codAlum, char **distrito, char **especialidad, char **facultad, int *escala, double *valorCred,
         double *credMatri, int cant_Alum, int cant_Docentes, struct Docente * docentes);
 void escribirLinea(ofstream &arch,int cant,char c);
+void escribirReporteAlumnos(ofstream &archReporte, char **nombre_al, int *codAlum, char **distrito, char **especialidad, char **facultad, int *escala, double *valorCred,
+        double *credMatri, int cant_Alum);
+void escribirReporteDocente(ofstream &archReporte, int cant_Docentes, struct Docente * docentes);
+
 #endif /* FUNCIONES_HPP */
 
