@@ -1,0 +1,40 @@
+              Resumen de Batalla Pokemon
+============================================================
+Equipo A 421 HP               Equipo B 531 HP
+Dragonair                     Geodude
+Flareon                       Nidorino
+Pidgey                        Lapras
+Hitmonlee                     Bellsprout
+Mew                           Zapdos
+Kangaskhan                    Snorlax
+============================================================
+Resumen de Estadisticas Pokemon
+Equipo A 
+Pokemon mas rapido :Kangaskhan
+Pokemon mas defensivo: Kangaskhan
+Pokemon mas ofensivo: Kangaskhan
+Lista de ataques del pokemon mas lento: Kangaskhan
+comet-punch,
+mega-punch,mega-kick,body-slam,take-down,double-edge,tail-whip,leer,bite,water-gun,surf,ice-beam,blizzard,bubble-beam,hyper-beam,submission,counter,seismic-toss,strength,
+thunderbolt,thunder,earthquake,fissure,toxic,rage,mimic,double-team,bide,fire-blast,skull-bash,dizzy-punch,rest,rock-slide,substitute,fire-punch,ice-punch,thunder-punch,
+stomp,headbutt,roar,disable,focus-energy,snore,curse,reversal,protect,mud-slap,zap-cannon,foresight,icy-wind,sandstorm,endure,swagger,fury-cutter,attract,
+sleep-talk,return,frustration,safeguard,dynamic-punch,iron-tail,hidden-power,rain-dance,sunny-day,shadow-ball,rock-smash,flamethrower,cut,solar-beam,dig,thief,fake-out,hail,
+facade,focus-punch,brick-break,secret-power,crush-claw,rock-tomb,aerial-ace,shock-wave,water-pulse,outrage,crunch,endeavor,hammer-arm,natural-gift,fling,sucker-punch,drain-punch,focus-blast,
+giga-impact,avalanche,shadow-claw,rock-climb,captivate,double-hit,spite,uproar,helping-hand,aqua-tail,low-kick,whirlpool,trump-card,round,chip-away,circle-throw,incinerate,retaliate,
+bulldoze,work-up,covet,confide,power-up-punch,pound,growl,hydro-pump,beat-up,assurance,last-resort,terrain-pulse,
+Equipo B 
+Pokemon mas rapido :Zapdos
+Pokemon mas especialmente defensivo :Snorlax
+Pokemon mas especialmente ofensivo :Zapdos
+Lista de ataques del pokemon mas lento: Snorlax
+mega-punch,
+pay-day,mega-kick,headbutt,body-slam,take-down,double-edge,water-gun,surf,ice-beam,blizzard,bubble-beam,hyper-beam,submission,counter,seismic-toss,strength,solar-beam,thunderbolt,
+thunder,earthquake,fissure,toxic,psychic,rage,mimic,double-team,harden,reflect,bide,metronome,self-destruct,fire-blast,skull-bash,amnesia,psywave,rest,
+rock-slide,substitute,fire-punch,ice-punch,thunder-punch,tackle,defense-curl,lick,snore,curse,protect,belly-drum,mud-slap,zap-cannon,icy-wind,sandstorm,endure,charm,
+rollout,swagger,attract,sleep-talk,return,frustration,dynamic-punch,hidden-power,rain-dance,sunny-day,psych-up,shadow-ball,rock-smash,flamethrower,facade,focus-punch,brick-break,yawn,
+secret-power,rock-tomb,block,covet,shock-wave,water-pulse,whirlwind,pursuit,crunch,recycle,natural-gift,fling,focus-blast,giga-impact,rock-climb,captivate,outrage,superpower,
+last-resort,seed-bomb,zen-headbutt,gunk-shot,iron-head,whirlpool,smack-down,heavy-slam,after-you,round,chip-away,incinerate,retaliate,bulldoze,work-up,wild-charge,hyper-voice,belch,
+confide,power-up-punch,high-horsepower,snatch,stomping-tantrum,screech,bite,hydro-pump,flail,encore,uproar,stockpile,swallow,hammer-arm,gastro-acid,heat-crash,darkest-lariat,body-press,
+steel-roller,terrain-pulse,
+Ganador
+Equipo B

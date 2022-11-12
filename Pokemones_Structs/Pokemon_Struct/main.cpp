@@ -17,7 +17,8 @@ int main(int argc, char** argv) {
     llenarStructPokemns(pokemons, cantPokemons);
     llenarStructMoves(movimientos, cantMoves);
     llenarPokemonMoves(pokemons, cantPokemons, movimientos, cantMoves);
-    escribirReportDePokemonMoves(pokemons, cantPokemons, movimientos, cantMoves);    
+    escribirReportDePokemonMoves(pokemons, cantPokemons, movimientos, cantMoves);   
+    batallaPokemon(pokemons,cantPokemons);
     return 0;
 }
 
