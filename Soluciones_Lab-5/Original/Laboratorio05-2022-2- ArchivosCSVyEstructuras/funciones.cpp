@@ -116,17 +116,8 @@ void escribirReporte(char **nombreAlum, int *codAlum, char **distritoAlum, char 
             double egresosTotal = 0;
             archReporte << setw(50) << "Universidad TP" << endl;
             escribirLinea(archReporte, 100, '=');
-            archReporte << "RECAUDACION POR MATRICULAS" << endl;
-            escribirLinea(archReporte, 100, '-');
-            archReporte << "CODIGO" << setw(20) << "NOMBRE" << setw(30) << "DISTRITO" << setw(20) << "ESPECIALIDAD" << setw(20) << "FACULTAD" << setw(20) << "ESCALA" << setw(20) << "VCRED" << setw(20) << "CREDMAT" << setw(20) << "PAGO" << endl;
-    for (int i = 0; i < cantAlum; i++) {
-        archReporte << codAlum[i] << setw(strlen(nombreAlum[i]) + 5) << nombreAlum[i] << setw(35 - strlen(nombreAlum[i])) << " " << distritoAlum[i] << setw(15 - strlen(distritoAlum[i])) << " " << especialidad[i];
-                archReporte << setw(15 - strlen(especialidad[i])) << " " << facultad[i] << setw(15 - strlen(facultad[i])) << " " << escala[i] << setw(5) << " " << valorCred[i] << setw(5) << " " << credMatri[i] << setw(5) << " " << credMatri[i] * valorCred[i] << endl;
-                totalMatri += credMatri[i] * valorCred[i];
-    }
-    escribirLinea(archReporte, 100, '-');
-            archReporte << "Total de ingresos por matriculas:" << setprecision(8) << totalMatri << endl;
-            escribirLinea(archReporte, 100, '=');
+            escribirReporteAlumnos(archReporte, nombreAlum, codAlum, distritoAlum, especialidad, facultad, escala, valorCred, credMatri, cantAlum,totalMatri);
+            
             archReporte << "PAGO A LOS DOCENTES:" << endl;
             archReporte << "CODIGO" << setw(20) << "NOMBRE" << setw(30) << "DISTRITO" << setw(20) << "CATEGORIA" << setw(20) << "DEDICACION" << setw(20) << "SECCION" << setw(20) << "GRADO" << setw(20) << "PAGOS" << endl;
     for (int i = 0; i < cantDoncent; i++) {
@@ -145,7 +136,29 @@ void escribirReporte(char **nombreAlum, int *codAlum, char **distritoAlum, char 
     else
         archReporte << "DEBE CERRAR LA INSTITUCION: " << endl;
     }
+void escribirReporteAlumnos(ofstream &archReporte, char **nombreAlum, int *codAlum, char **distritoAlum, char **especialidad, char **facultad, int *escala, double *valorCred, double *credMatri, int cantAlum,double &totalMatri) {
+    archReporte << "RECAUDACION POR MATRICULAS" << endl;
+    escribirLinea(archReporte, 100, '-');
+   
+      archReporte << "CODIGO" << setw(20) << " " << "NOMBRE" << setw(30) << " " << "DISTRITO" << setw(35) << "ESPECIALIDAD" << setw(21) << "FACULTAD";
+    archReporte << setw(11) << "ESCALA" << setw(10) << "VCRED" << setw(12) << "CREDMAT" << setw(12) << "PAGO" << endl;
+    escribirLinea(archReporte, 200, '=');
+    
+      for (int i = 0; i < cantAlum; i++) {
+        archReporte << codAlum[i] << setw(5) << " " << nombreAlum[i] << setw(45 - strlen(nombreAlum[i])) << " " << distritoAlum[i] << setw(35 - strlen(distritoAlum[i])) << " ";
+        archReporte << especialidad[i] << setw(25 - strlen(especialidad[i])) << " " << facultad[i] << setw(15 - strlen(facultad[i])) << " " << escala[i] << setw(5) << " ";
+        archReporte << fixed << setprecision(2) << valorCred[i] << setw(6) << " ";
 
+        archReporte << fixed << setw(5) << credMatri[i] << setw(10 - (credMatri[i] / 100)) << " ";
+
+        archReporte << setprecision(3) << credMatri[i] * valorCred[i] << endl;
+        totalMatri += credMatri[i] * valorCred[i];
+    }
+    escribirLinea(archReporte, 100, '-');
+    archReporte << "Total de ingresos por matriculas:" << setprecision(8) << totalMatri << endl;
+    escribirLinea(archReporte, 100, '=');
+
+}
 void escribirLinea(ofstream &archReporte, int cant, char c) {
     for (int i = 0; i < cant; i++) {
         archReporte.put(c);

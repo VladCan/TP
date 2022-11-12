@@ -2,79 +2,80 @@
 ====================================================================================================
 RECAUDACION POR MATRICULAS
 ----------------------------------------------------------------------------------------------------
-CODIGO              NOMBRE                      DISTRITO        ESPECIALIDAD            FACULTAD              ESCALA               VCRED             CREDMAT                PAGO
-20174691     VIRGINIA IRMA BENAVENTE AYALA      Santa Anita    Ing. Civil     EEGGCC         4     569.63     101.3     57703.5
-20184600     GUILLERMO EDRIC CABRERA CANALES    Ate            Ing. Mecanica  EEGGCC         5     655.07     50     32753.5
-20167249     JAVIER DANIEL AURIS ZIMIC          Chaclacayo     Ing. Civil     FCI            1     375.25     37.7     14146.9
-20176296     ADOLFO LANDEO SUELDO               Cieneguilla    Ing. Civil     EEGGCC         7     756.61     61.4     46455.9
-20157718     CHRISTIAN PAREDES PATINO           San Miguel     Ing. Mecanica  FCI            3     474.69     82.2     39019.5
-20136567     MILENA JENNY MEDINA VELASQUEZ      San Juan de Miraflores Ing. Mecanica  FCI            2     412.78     114.4     47222
-20159887     JOHANA GLORIA PORTUGAL BENAVENTE   San Juan de Lurigancho Ing. Informatica FCI            7     756.61     116.8     88372
-20166636     VALENTINA ROCIO AQUINO TORO        Santa Maria del Mar Ing. Mecanica  FCI            7     756.61     107.2     81108.6
-20152853     ERICKA VICTORIA JUSTINO FORZANI    Pueblo Libre   Ing. Mecanica  EEGGCC         5     655.07     64.2     42055.5
-20136260     MARTHA LOZADA YINO                 San Isidro     Ing. Mecanica  EEGGCC         2     412.78     85.6     35334
-20144626     SANDRO CARO POLO                   Los Olivos     Ing. Informatica FCI            7     756.61     38.7     29280.8
-20161923     MADELEINE YLIANA MIYAKE MEREL      Jesus Maria    Ing. Civil     FCI            4     569.63     62     35317.1
-20179704     TATIANA NANCY VILLA YALLICO        San Martin de Porres Ing. Mecanica  FCI            1     375.25     80.2     30095
-20180762     ALEX MARTIN VASQUEZ PAZ            Lurin          Ing. Mecanica  EEGGCC         3     474.69     95.3     45238
-20167100     BEATRIZ HENRIQUEZ ESPINO           Lince          Ing. Civil     FCI            1     375.25     134.2     50358.5
-20143338     MELVIN HENRRY LAURA WONG           Santa Rosa     Ing. Mecanica  EEGGCC         5     655.07     85.6     56074
-20136485     EDGARD HENRY VELASQUEZ HUAYANAY    Independencia  Ing. Mecanica  FCI            6     720.58     134.1     96629.8
-20182437     MARTIN CERNA DURAND                Lurigancho-Chosica Ing. Civil     FCI            4     569.63     135     76900.1
-20183699     ELIA ROSA CAMACHO AGUERO           El Agustino    Ing. Civil     EEGGCC         3     474.69     73.7     34984.7
-20172513     WILLIAMS JUSTINO CRUZ              Lince          Ing. Mecanica  FCI            7     756.61     135.6     102596
-20176213     MOISES MIGUEL PAIRAZAMAN ALAMO     Independencia  Ing. Civil     FCI            3     474.69     87.4     41487.9
-20156980     ELIZABETH ELIZABETH FERNANDEZ ORTEGA Cieneguilla    Ing. Mecanica  FCI            1     375.25     26.3     9869.08
-20183971     CHRISTIAN LANDA PISCOYA            Santa Maria del Mar Ing. Informatica FCI            2     412.78     48.2     19896
-20143409     IRMA LOURDES CORRALES TSUKAZAN     Independencia  Ing. Mecanica  EEGGCC         2     412.78     37.3     15396.7
-20164049     MIGUEL CORREA VIZCARDO             Punta Hermosa  Ing. Mecanica  EEGGCC         4     569.63     139.1     79235.5
-20148472     SURAMI JANET PASQUEL QUIO          Cieneguilla    Ing. Civil     FCI            3     474.69     39.4     18702.8
-20181657     FRANCISCO EDGAR MEJIA HAZA         Pueblo Libre   Ing. Civil     FCI            4     569.63     121.8     69380.9
-20185658     DANIEL SALAS AGUERO                Santa Rosa     Ing. Civil     FCI            7     756.61     78.3     59242.6
-20132464     HELI CORONEL CHUMPITAZ             Jesus Maria    Ing. Mecanica  FCI            4     569.63     36.1     20563.6
-20159566     EDRIC RONALD ARCA AMEZQUITA        Santa Rosa     Ing. Mecanica  FCI            2     412.78     135.7     56014.2
-20157054     INES MARTHA MORALES VALVERDE       Lurigancho-Chosica Ing. Mecanica  EEGGCC         5     655.07     40.6     26595.8
-20142581     HENRRY HUMBERTO PALOMARES VERA     Santiago de Surco Ing. Civil     EEGGCC         7     756.61     129.2     97754
-20165527     CARLOS JULIAN PRADO VERGEL         Santa Rosa     Ing. Informatica FCI            2     412.78     102.8     42433.8
-20186584     CINTHIA NORABUENA PRECIADO         Santa Rosa     Ing. Mecanica  EEGGCC         1     375.25     117     43904.2
-20131002     CESAR ADOLFO INGA FLORES           Chorrillos     Ing. Civil     FCI            6     720.58     89.2     64275.7
+CODIGO                    NOMBRE                              DISTRITO                       ESPECIALIDAD             FACULTAD     ESCALA     VCRED     CREDMAT        PAGO
+========================================================================================================================================================================================================
+20174691     VIRGINIA IRMA BENAVENTE AYALA                Santa Anita                        Ing. Civil               EEGGCC         4     569.63      101.30        57703.519
+20184600     GUILLERMO EDRIC CABRERA CANALES              Ate                                Ing. Mecanica            EEGGCC         5     655.07      50.00         32753.500
+20167249     JAVIER DANIEL AURIS ZIMIC                    Chaclacayo                         Ing. Civil               FCI            1     375.25      37.70         14146.925
+20176296     ADOLFO LANDEO SUELDO                         Cieneguilla                        Ing. Civil               EEGGCC         7     756.61      61.40         46455.854
+20157718     CHRISTIAN PAREDES PATINO                     San Miguel                         Ing. Mecanica            FCI            3     474.69      82.20         39019.518
+20136567     MILENA JENNY MEDINA VELASQUEZ                San Juan de Miraflores             Ing. Mecanica            FCI            2     412.78      114.40        47222.032
+20159887     JOHANA GLORIA PORTUGAL BENAVENTE             San Juan de Lurigancho             Ing. Informatica         FCI            7     756.61      116.80        88372.048
+20166636     VALENTINA ROCIO AQUINO TORO                  Santa Maria del Mar                Ing. Mecanica            FCI            7     756.61      107.20        81108.592
+20152853     ERICKA VICTORIA JUSTINO FORZANI              Pueblo Libre                       Ing. Mecanica            EEGGCC         5     655.07      64.20         42055.494
+20136260     MARTHA LOZADA YINO                           San Isidro                         Ing. Mecanica            EEGGCC         2     412.78      85.60         35333.968
+20144626     SANDRO CARO POLO                             Los Olivos                         Ing. Informatica         FCI            7     756.61      38.70         29280.807
+20161923     MADELEINE YLIANA MIYAKE MEREL                Jesus Maria                        Ing. Civil               FCI            4     569.63      62.00         35317.060
+20179704     TATIANA NANCY VILLA YALLICO                  San Martin de Porres               Ing. Mecanica            FCI            1     375.25      80.20         30095.050
+20180762     ALEX MARTIN VASQUEZ PAZ                      Lurin                              Ing. Mecanica            EEGGCC         3     474.69      95.30         45237.957
+20167100     BEATRIZ HENRIQUEZ ESPINO                     Lince                              Ing. Civil               FCI            1     375.25      134.20        50358.550
+20143338     MELVIN HENRRY LAURA WONG                     Santa Rosa                         Ing. Mecanica            EEGGCC         5     655.07      85.60         56073.992
+20136485     EDGARD HENRY VELASQUEZ HUAYANAY              Independencia                      Ing. Mecanica            FCI            6     720.58      134.10        96629.778
+20182437     MARTIN CERNA DURAND                          Lurigancho-Chosica                 Ing. Civil               FCI            4     569.63      135.00        76900.050
+20183699     ELIA ROSA CAMACHO AGUERO                     El Agustino                        Ing. Civil               EEGGCC         3     474.69      73.70         34984.653
+20172513     WILLIAMS JUSTINO CRUZ                        Lince                              Ing. Mecanica            FCI            7     756.61      135.60        102596.316
+20176213     MOISES MIGUEL PAIRAZAMAN ALAMO               Independencia                      Ing. Civil               FCI            3     474.69      87.40         41487.906
+20156980     ELIZABETH ELIZABETH FERNANDEZ ORTEGA         Cieneguilla                        Ing. Mecanica            FCI            1     375.25      26.30         9869.075
+20183971     CHRISTIAN LANDA PISCOYA                      Santa Maria del Mar                Ing. Informatica         FCI            2     412.78      48.20         19895.996
+20143409     IRMA LOURDES CORRALES TSUKAZAN               Independencia                      Ing. Mecanica            EEGGCC         2     412.78      37.30         15396.694
+20164049     MIGUEL CORREA VIZCARDO                       Punta Hermosa                      Ing. Mecanica            EEGGCC         4     569.63      139.10        79235.533
+20148472     SURAMI JANET PASQUEL QUIO                    Cieneguilla                        Ing. Civil               FCI            3     474.69      39.40         18702.786
+20181657     FRANCISCO EDGAR MEJIA HAZA                   Pueblo Libre                       Ing. Civil               FCI            4     569.63      121.80        69380.934
+20185658     DANIEL SALAS AGUERO                          Santa Rosa                         Ing. Civil               FCI            7     756.61      78.30         59242.563
+20132464     HELI CORONEL CHUMPITAZ                       Jesus Maria                        Ing. Mecanica            FCI            4     569.63      36.10         20563.643
+20159566     EDRIC RONALD ARCA AMEZQUITA                  Santa Rosa                         Ing. Mecanica            FCI            2     412.78      135.70        56014.246
+20157054     INES MARTHA MORALES VALVERDE                 Lurigancho-Chosica                 Ing. Mecanica            EEGGCC         5     655.07      40.60         26595.842
+20142581     HENRRY HUMBERTO PALOMARES VERA               Santiago de Surco                  Ing. Civil               EEGGCC         7     756.61      129.20        97754.012
+20165527     CARLOS JULIAN PRADO VERGEL                   Santa Rosa                         Ing. Informatica         FCI            2     412.78      102.80        42433.784
+20186584     CINTHIA NORABUENA PRECIADO                   Santa Rosa                         Ing. Mecanica            EEGGCC         1     375.25      117.00        43904.250
+20131002     CESAR ADOLFO INGA FLORES                     Chorrillos                         Ing. Civil               FCI            6     720.58      89.20         64275.736
 ----------------------------------------------------------------------------------------------------
-Total de ingresos por matriculas:1706398.7
+Total de ingresos por matriculas:1706398.66300000
 ====================================================================================================
 PAGO A LOS DOCENTES:
 CODIGO              NOMBRE                      DISTRITO           CATEGORIA          DEDICACION             SECCION               GRADO               PAGOS
-65219371     EMILIO HERNANDEZ BARRIOS     Comas     Principal     TPA     Derecho civil     Doctor     79496.8
-55601258     MADELEINE SHIRAKAWA MIRANDA     Pueblo Libre     Contratado     TC     Derecho penal     Licenciado     90301.04
-84760357     SILVANA MALDONADO RAMIREZ     Brena     Contratado     TP     Pintura     Licenciado     73239.28
-22024756     BLANCA MILAGROS MEJIA DIAZ     San Juan de Miraflores     Principal     TPA     Escultura     Magister     73973.36
-23556171     RICHARD SANDRO PEREZ FARFAN     San Miguel     Asociado     TP     Psicologia     Magister     81294.56
-86904334     ROLANDO CASTRO SUAREZ     Barranco     Contratado     TC     Psicologia     Bachiller     118611.52
-83938433     ADRIA GLORIA RAFFO CHUNG     Villa Maria del Triunfo     Principal     TC     Derecho civil     Magister     99346.32
-65513592     CESAR BRUNO PISCOYA BRAVO     Ancon     Principal     TC     Economia     Licenciado     103606.64
-24093282     SURAMI ANNIE RAFFO ARIAS     Lurin     Contratado     TPA     Derecho civil     Licenciado     102848
-57723687     FIORELLA MARGOT CERNA PAIRAZAMAN     Surquillo     Auxiliar     TC     Derecho penal     Doctor     103947.92
-44071559     MAGALI SILVANA DIAZ ANTEZANO     Ate     Principal     TPA     Economia     Bachiller     80291.28
-55719949     SHIRLEY ISABEL CABRERA LUNA     San Isidro     Asociado     TPA     Informatica     Magister     104096.24
-89867067     IRMA YDALI VALVERDE FLORES     Chaclacayo     Principal     TC     Civil     Licenciado     136848.96
-29881074     ROSARIO MENDOZA EGUSQUIZA     Santa Rosa     Asociado     TPA     Psicologia     Licenciado     113841.44
-96499984     ALVARO CHUNG LEE     Lurin     Asociado     TC     Economia     Licenciado     79843.76
-30326624     EDWARD REYES TANG     Barranco     Asociado     TC     Informatica     Bachiller     89259.6
-53526607     RONAL CHUMPITAZ IBEROS     Santa Rosa     Principal     TC     Mecanica     Magister     120676.4
-43630388     MARIA HELI ARROYO GORDILLO     San Juan de Miraflores     Principal     TP     Derecho penal     Doctor     107094.88
-49631243     JANET REBECA VEGA GARCIA     Barranco     Asociado     TPA     Pintura     Licenciado     110686.8
-81199293     SHIRLEY PINTO CALIXTO     Puente Piedra     Contratado     TPA     Derecho civil     Doctor     115553.44
-57553881     LORENA IRMA SALAZAR CORRALES     San Juan de Lurigancho     Asociado     TC     Mecanica     Licenciado     100764.16
-40927560     JOSE ROLANDO CERNA HIJAR     San Bartolo     Asociado     TP     Civil     Bachiller     67518.96
-37520971     GUILLERMO ALFONSO DELGADO GONZALES     Surquillo     Auxiliar     TPA     Derecho civil     Bachiller     133420.56
-71705649     ROSA SANTISTEBAN MEZA     Pachacamac     Contratado     TP     Derecho civil     Bachiller     135875.12
-19992333     MADELEINE WONG MARTEL     Ancon     Asociado     TPA     Pintura     Bachiller     143777.68
-27129690     IRMA VIRGINIA DIAZ CORREA     Carabayllo     Auxiliar     TPA     Civil     Licenciado     71419.76
-60019480     ANGEL SHIRAKAWA ORTEGA     Pueblo Libre     Auxiliar     TC     Derecho civil     Bachiller     83463.84
-51954821     GLORIA TATIANA ROMERO PALOMARES     Santiago de Surco     Principal     TPA     Derecho civil     Licenciado     143556.56
-41944138     EDGAR RICHARD PRADO FALCON     Independencia     Contratado     TP     Informatica     Licenciado     133142.4
-78078806     ALONSO FORZANI CARO     San Bartolo     Contratado     TPA     Derecho penal     Licenciado     92197.92
+65219371     EMILIO HERNANDEZ BARRIOS     Comas     Principal     TPA     Derecho civil     Doctor     79496.80000000
+55601258     MADELEINE SHIRAKAWA MIRANDA     Pueblo Libre     Contratado     TC     Derecho penal     Licenciado     90301.04000000
+84760357     SILVANA MALDONADO RAMIREZ     Brena     Contratado     TP     Pintura     Licenciado     73239.28000000
+22024756     BLANCA MILAGROS MEJIA DIAZ     San Juan de Miraflores     Principal     TPA     Escultura     Magister     73973.36000000
+23556171     RICHARD SANDRO PEREZ FARFAN     San Miguel     Asociado     TP     Psicologia     Magister     81294.56000000
+86904334     ROLANDO CASTRO SUAREZ     Barranco     Contratado     TC     Psicologia     Bachiller     118611.52000000
+83938433     ADRIA GLORIA RAFFO CHUNG     Villa Maria del Triunfo     Principal     TC     Derecho civil     Magister     99346.32000000
+65513592     CESAR BRUNO PISCOYA BRAVO     Ancon     Principal     TC     Economia     Licenciado     103606.64000000
+24093282     SURAMI ANNIE RAFFO ARIAS     Lurin     Contratado     TPA     Derecho civil     Licenciado     102848.00000000
+57723687     FIORELLA MARGOT CERNA PAIRAZAMAN     Surquillo     Auxiliar     TC     Derecho penal     Doctor     103947.92000000
+44071559     MAGALI SILVANA DIAZ ANTEZANO     Ate     Principal     TPA     Economia     Bachiller     80291.28000000
+55719949     SHIRLEY ISABEL CABRERA LUNA     San Isidro     Asociado     TPA     Informatica     Magister     104096.24000000
+89867067     IRMA YDALI VALVERDE FLORES     Chaclacayo     Principal     TC     Civil     Licenciado     136848.96000000
+29881074     ROSARIO MENDOZA EGUSQUIZA     Santa Rosa     Asociado     TPA     Psicologia     Licenciado     113841.44000000
+96499984     ALVARO CHUNG LEE     Lurin     Asociado     TC     Economia     Licenciado     79843.76000000
+30326624     EDWARD REYES TANG     Barranco     Asociado     TC     Informatica     Bachiller     89259.60000000
+53526607     RONAL CHUMPITAZ IBEROS     Santa Rosa     Principal     TC     Mecanica     Magister     120676.40000000
+43630388     MARIA HELI ARROYO GORDILLO     San Juan de Miraflores     Principal     TP     Derecho penal     Doctor     107094.88000000
+49631243     JANET REBECA VEGA GARCIA     Barranco     Asociado     TPA     Pintura     Licenciado     110686.80000000
+81199293     SHIRLEY PINTO CALIXTO     Puente Piedra     Contratado     TPA     Derecho civil     Doctor     115553.44000000
+57553881     LORENA IRMA SALAZAR CORRALES     San Juan de Lurigancho     Asociado     TC     Mecanica     Licenciado     100764.16000000
+40927560     JOSE ROLANDO CERNA HIJAR     San Bartolo     Asociado     TP     Civil     Bachiller     67518.96000000
+37520971     GUILLERMO ALFONSO DELGADO GONZALES     Surquillo     Auxiliar     TPA     Derecho civil     Bachiller     133420.56000000
+71705649     ROSA SANTISTEBAN MEZA     Pachacamac     Contratado     TP     Derecho civil     Bachiller     135875.12000000
+19992333     MADELEINE WONG MARTEL     Ancon     Asociado     TPA     Pintura     Bachiller     143777.68000000
+27129690     IRMA VIRGINIA DIAZ CORREA     Carabayllo     Auxiliar     TPA     Civil     Licenciado     71419.76000000
+60019480     ANGEL SHIRAKAWA ORTEGA     Pueblo Libre     Auxiliar     TC     Derecho civil     Bachiller     83463.84000000
+51954821     GLORIA TATIANA ROMERO PALOMARES     Santiago de Surco     Principal     TPA     Derecho civil     Licenciado     143556.56000000
+41944138     EDGAR RICHARD PRADO FALCON     Independencia     Contratado     TP     Informatica     Licenciado     133142.40000000
+78078806     ALONSO FORZANI CARO     San Bartolo     Contratado     TPA     Derecho penal     Licenciado     92197.92000000
 ----------------------------------------------------------------------------------------------------
-Total de Egresos por Sueldos:3089995.2
+Total de Egresos por Sueldos:3089995.20000000
 ====================================================================================================
-Estado de las ganancias o perdidas: -1383596.5
+Estado de las ganancias o perdidas: -1383596.53700000
 Recomndoacion: DEBE CERRAR LA INSTITUCION: 
