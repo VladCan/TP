@@ -1,7 +1,7 @@
                                     Universidad TP
-====================================================================================================
+========================================================================================================================================================================================================
 RECAUDACION POR MATRICULAS
-----------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 CODIGO                    NOMBRE                              DISTRITO                       ESPECIALIDAD             FACULTAD     ESCALA     VCRED     CREDMAT        PAGO
 ========================================================================================================================================================================================================
 20174691     VIRGINIA IRMA BENAVENTE AYALA                Santa Anita                        Ing. Civil               EEGGCC         4     569.63      101.30        57703.519
@@ -39,43 +39,43 @@ CODIGO                    NOMBRE                              DISTRITO          
 20165527     CARLOS JULIAN PRADO VERGEL                   Santa Rosa                         Ing. Informatica         FCI            2     412.78      102.80        42433.784
 20186584     CINTHIA NORABUENA PRECIADO                   Santa Rosa                         Ing. Mecanica            EEGGCC         1     375.25      117.00        43904.250
 20131002     CESAR ADOLFO INGA FLORES                     Chorrillos                         Ing. Civil               FCI            6     720.58      89.20         64275.736
-----------------------------------------------------------------------------------------------------
-Total de ingresos por matriculas:1706398.66300000
-====================================================================================================
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total de ingresos por matriculas:1706398.663
+========================================================================================================================================================================================================
 PAGO A LOS DOCENTES:
-CODIGO              NOMBRE                      DISTRITO           CATEGORIA          DEDICACION             SECCION               GRADO               PAGOS
-65219371     EMILIO HERNANDEZ BARRIOS     Comas     Principal     TPA     Derecho civil     Doctor     79496.80000000
-55601258     MADELEINE SHIRAKAWA MIRANDA     Pueblo Libre     Contratado     TC     Derecho penal     Licenciado     90301.04000000
-84760357     SILVANA MALDONADO RAMIREZ     Brena     Contratado     TP     Pintura     Licenciado     73239.28000000
-22024756     BLANCA MILAGROS MEJIA DIAZ     San Juan de Miraflores     Principal     TPA     Escultura     Magister     73973.36000000
-23556171     RICHARD SANDRO PEREZ FARFAN     San Miguel     Asociado     TP     Psicologia     Magister     81294.56000000
-86904334     ROLANDO CASTRO SUAREZ     Barranco     Contratado     TC     Psicologia     Bachiller     118611.52000000
-83938433     ADRIA GLORIA RAFFO CHUNG     Villa Maria del Triunfo     Principal     TC     Derecho civil     Magister     99346.32000000
-65513592     CESAR BRUNO PISCOYA BRAVO     Ancon     Principal     TC     Economia     Licenciado     103606.64000000
-24093282     SURAMI ANNIE RAFFO ARIAS     Lurin     Contratado     TPA     Derecho civil     Licenciado     102848.00000000
-57723687     FIORELLA MARGOT CERNA PAIRAZAMAN     Surquillo     Auxiliar     TC     Derecho penal     Doctor     103947.92000000
-44071559     MAGALI SILVANA DIAZ ANTEZANO     Ate     Principal     TPA     Economia     Bachiller     80291.28000000
-55719949     SHIRLEY ISABEL CABRERA LUNA     San Isidro     Asociado     TPA     Informatica     Magister     104096.24000000
-89867067     IRMA YDALI VALVERDE FLORES     Chaclacayo     Principal     TC     Civil     Licenciado     136848.96000000
-29881074     ROSARIO MENDOZA EGUSQUIZA     Santa Rosa     Asociado     TPA     Psicologia     Licenciado     113841.44000000
-96499984     ALVARO CHUNG LEE     Lurin     Asociado     TC     Economia     Licenciado     79843.76000000
-30326624     EDWARD REYES TANG     Barranco     Asociado     TC     Informatica     Bachiller     89259.60000000
-53526607     RONAL CHUMPITAZ IBEROS     Santa Rosa     Principal     TC     Mecanica     Magister     120676.40000000
-43630388     MARIA HELI ARROYO GORDILLO     San Juan de Miraflores     Principal     TP     Derecho penal     Doctor     107094.88000000
-49631243     JANET REBECA VEGA GARCIA     Barranco     Asociado     TPA     Pintura     Licenciado     110686.80000000
-81199293     SHIRLEY PINTO CALIXTO     Puente Piedra     Contratado     TPA     Derecho civil     Doctor     115553.44000000
-57553881     LORENA IRMA SALAZAR CORRALES     San Juan de Lurigancho     Asociado     TC     Mecanica     Licenciado     100764.16000000
-40927560     JOSE ROLANDO CERNA HIJAR     San Bartolo     Asociado     TP     Civil     Bachiller     67518.96000000
-37520971     GUILLERMO ALFONSO DELGADO GONZALES     Surquillo     Auxiliar     TPA     Derecho civil     Bachiller     133420.56000000
-71705649     ROSA SANTISTEBAN MEZA     Pachacamac     Contratado     TP     Derecho civil     Bachiller     135875.12000000
-19992333     MADELEINE WONG MARTEL     Ancon     Asociado     TPA     Pintura     Bachiller     143777.68000000
-27129690     IRMA VIRGINIA DIAZ CORREA     Carabayllo     Auxiliar     TPA     Civil     Licenciado     71419.76000000
-60019480     ANGEL SHIRAKAWA ORTEGA     Pueblo Libre     Auxiliar     TC     Derecho civil     Bachiller     83463.84000000
-51954821     GLORIA TATIANA ROMERO PALOMARES     Santiago de Surco     Principal     TPA     Derecho civil     Licenciado     143556.56000000
-41944138     EDGAR RICHARD PRADO FALCON     Independencia     Contratado     TP     Informatica     Licenciado     133142.40000000
-78078806     ALONSO FORZANI CARO     San Bartolo     Contratado     TPA     Derecho penal     Licenciado     92197.92000000
-----------------------------------------------------------------------------------------------------
-Total de Egresos por Sueldos:3089995.20000000
+CODIGO                    NOMBRE                              DISTRITO                       CATEGORIA          DEDICACION             SECCION               GRADO               PAGOS
+65219371     EMILIO HERNANDEZ BARRIOS                     Comas                              Principal             TPA               Derecho civil          Doctor              79496.80
+55601258     MADELEINE SHIRAKAWA MIRANDA                  Pueblo Libre                       Contratado            TC                Derecho penal          Licenciado          90301.04
+84760357     SILVANA MALDONADO RAMIREZ                    Brena                              Contratado            TP                Pintura                Licenciado          73239.28
+22024756     BLANCA MILAGROS MEJIA DIAZ                   San Juan de Miraflores             Principal             TPA               Escultura              Magister            73973.36
+23556171     RICHARD SANDRO PEREZ FARFAN                  San Miguel                         Asociado              TP                Psicologia             Magister            81294.56
+86904334     ROLANDO CASTRO SUAREZ                        Barranco                           Contratado            TC                Psicologia             Bachiller           118611.52
+83938433     ADRIA GLORIA RAFFO CHUNG                     Villa Maria del Triunfo            Principal             TC                Derecho civil          Magister            99346.32
+65513592     CESAR BRUNO PISCOYA BRAVO                    Ancon                              Principal             TC                Economia               Licenciado          103606.64
+24093282     SURAMI ANNIE RAFFO ARIAS                     Lurin                              Contratado            TPA               Derecho civil          Licenciado          102848.00
+57723687     FIORELLA MARGOT CERNA PAIRAZAMAN             Surquillo                          Auxiliar              TC                Derecho penal          Doctor              103947.92
+44071559     MAGALI SILVANA DIAZ ANTEZANO                 Ate                                Principal             TPA               Economia               Bachiller           80291.28
+55719949     SHIRLEY ISABEL CABRERA LUNA                  San Isidro                         Asociado              TPA               Informatica            Magister            104096.24
+89867067     IRMA YDALI VALVERDE FLORES                   Chaclacayo                         Principal             TC                Civil                  Licenciado          136848.96
+29881074     ROSARIO MENDOZA EGUSQUIZA                    Santa Rosa                         Asociado              TPA               Psicologia             Licenciado          113841.44
+96499984     ALVARO CHUNG LEE                             Lurin                              Asociado              TC                Economia               Licenciado          79843.76
+30326624     EDWARD REYES TANG                            Barranco                           Asociado              TC                Informatica            Bachiller           89259.60
+53526607     RONAL CHUMPITAZ IBEROS                       Santa Rosa                         Principal             TC                Mecanica               Magister            120676.40
+43630388     MARIA HELI ARROYO GORDILLO                   San Juan de Miraflores             Principal             TP                Derecho penal          Doctor              107094.88
+49631243     JANET REBECA VEGA GARCIA                     Barranco                           Asociado              TPA               Pintura                Licenciado          110686.80
+81199293     SHIRLEY PINTO CALIXTO                        Puente Piedra                      Contratado            TPA               Derecho civil          Doctor              115553.44
+57553881     LORENA IRMA SALAZAR CORRALES                 San Juan de Lurigancho             Asociado              TC                Mecanica               Licenciado          100764.16
+40927560     JOSE ROLANDO CERNA HIJAR                     San Bartolo                        Asociado              TP                Civil                  Bachiller           67518.96
+37520971     GUILLERMO ALFONSO DELGADO GONZALES           Surquillo                          Auxiliar              TPA               Derecho civil          Bachiller           133420.56
+71705649     ROSA SANTISTEBAN MEZA                        Pachacamac                         Contratado            TP                Derecho civil          Bachiller           135875.12
+19992333     MADELEINE WONG MARTEL                        Ancon                              Asociado              TPA               Pintura                Bachiller           143777.68
+27129690     IRMA VIRGINIA DIAZ CORREA                    Carabayllo                         Auxiliar              TPA               Civil                  Licenciado          71419.76
+60019480     ANGEL SHIRAKAWA ORTEGA                       Pueblo Libre                       Auxiliar              TC                Derecho civil          Bachiller           83463.84
+51954821     GLORIA TATIANA ROMERO PALOMARES              Santiago de Surco                  Principal             TPA               Derecho civil          Licenciado          143556.56
+41944138     EDGAR RICHARD PRADO FALCON                   Independencia                      Contratado            TP                Informatica            Licenciado          133142.40
+78078806     ALONSO FORZANI CARO                          San Bartolo                        Contratado            TPA               Derecho penal          Licenciado          92197.92
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Total de Egresos por Sueldos:3089995.200
 ====================================================================================================
-Estado de las ganancias o perdidas: -1383596.53700000
+Estado de las ganancias o perdidas: -1383596.537
 Recomndoacion: DEBE CERRAR LA INSTITUCION: 

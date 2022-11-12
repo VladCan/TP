@@ -25,7 +25,7 @@ void ordenarArreglosAlum(char **nombreAlum, int *codAlum, char **distritoAlum, c
 void escribirReporte(char **nombreAlum, int *codAlum, char **distritoAlum, char **especialidad, char **facultad, int *escala,double *valorCred,double *credMatri, int cantAlum,
         struct Docente *docentes, int cantDoncent);
 void escribirReporteAlumnos(ofstream &archReporte,char **nombreAlum, int *codAlum, char **distritoAlum, char **especialidad, char **facultad, int *escala,double *valorCred,double *credMatri, int cantAlum,double &totalMatri);
-
+void escribirReporteDocente(ofstream &archReporte, int cantDoncent, struct Docente * docentes,double &egresosTotal);
 void escribirLinea(ofstream &archReporte,int cant ,char c);
 #endif /* FUNCIONES_HPP */
 
