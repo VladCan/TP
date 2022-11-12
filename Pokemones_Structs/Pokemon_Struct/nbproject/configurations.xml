@@ -4,6 +4,7 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Moves.hpp</itemPath>
       <itemPath>Pokemon.hpp</itemPath>
       <itemPath>funciones.hpp</itemPath>
     </logicalFolder>
@@ -39,6 +40,8 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Moves.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Pokemon.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
@@ -68,6 +71,8 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Moves.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="Pokemon.hpp" ex="false" tool="3" flavor2="0">
       </item>
       <item path="funciones.cpp" ex="false" tool="1" flavor2="0">

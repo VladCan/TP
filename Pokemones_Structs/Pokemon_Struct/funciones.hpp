@@ -7,6 +7,7 @@
 
 #ifndef FUNCIONES_HPP
 #define FUNCIONES_HPP
+#include "Moves.hpp"
 #include "Pokemon.hpp"
 #include <iostream>
 #include <iomanip>
@@ -16,7 +17,10 @@
 using namespace std;
 
 void llenarStructPokemns(struct Pokemon *pokemons,int &cantPokemons);
+void llenarStructMoves(struct Moves *movimientos,int &cantMoves);
+void llenarPokemonMoves(struct Pokemon *pokemons,int cantPokemons,struct Moves *movimientos,int cantMoves);
 char *asignarMemoria(const char *buffer);
+
 
 #endif /* FUNCIONES_HPP */
 
