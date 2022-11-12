@@ -21,8 +21,9 @@ int main(int argc, char** argv) {
     int cantDoncent = 0;
     struct Docente docentes[CANT_MAX_DOCENT];
    llenarDatos(nombreAlum,codAlum,distritoAlum,especialidad,facultad,escala,valorCred,credMatri,cantAlum,docentes,cantDoncent);
-   //ordenarArreglosAlum(nombreAlum,codAlum,distritoAlum,especialidad,facultad,escala,valorCred,credMatri,cantAlum);
+   ordenarArreglosAlum(nombreAlum,codAlum,distritoAlum,especialidad,facultad,escala,valorCred,credMatri,cantAlum);
    escribirReporte(nombreAlum,codAlum,distritoAlum,especialidad,facultad,escala,valorCred,credMatri,cantAlum,docentes,cantDoncent);
+   
     return 0;
 }
 

@@ -22,6 +22,9 @@ void llenarArregloAlum(ifstream &achrMiembro, char **nombreAlum, int *codAlum, c
 void llenarArrStructDocent(ifstream &achrMiembro, struct Docente *docentes, int &cantDoncent);
 void quitarBarra(char *&nombre,ifstream &achrMiembro);
 void ordenarArreglosAlum(char **nombreAlum, int *codAlum, char **distritoAlum, char **especialidad, char **facultad, int *escala,double *valorCred,double *credMatri, int cantAlum);
+void intercambiarDouble(double *arr,int i,int j);
+void intercambiarInt(int *arr,int i,int j);
+void intercambiarChar(char *&cadenaI,char *&cadenaJ);
 void escribirReporte(char **nombreAlum, int *codAlum, char **distritoAlum, char **especialidad, char **facultad, int *escala,double *valorCred,double *credMatri, int cantAlum,
         struct Docente *docentes, int cantDoncent);
 void escribirReporteAlumnos(ofstream &archReporte,char **nombreAlum, int *codAlum, char **distritoAlum, char **especialidad, char **facultad, int *escala,double *valorCred,double *credMatri, int cantAlum,double &totalMatri);
