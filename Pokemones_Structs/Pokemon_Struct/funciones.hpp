@@ -20,7 +20,8 @@ void llenarStructPokemns(struct Pokemon *pokemons,int &cantPokemons);
 void llenarStructMoves(struct Moves *movimientos,int &cantMoves);
 void llenarPokemonMoves(struct Pokemon *pokemons,int cantPokemons,struct Moves *movimientos,int cantMoves);
 char *asignarMemoria(const char *buffer);
-
+void escribirReportDePokemonMoves(struct Pokemon *pokemons,int cantPokemons,struct Moves *movimientos,int cantMoves);
+void escribirLinea(ofstream &arch,int cant,char c);
 
 #endif /* FUNCIONES_HPP */
 

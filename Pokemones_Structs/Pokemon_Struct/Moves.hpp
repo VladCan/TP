@@ -11,7 +11,7 @@ struct Moves{
     int ID;
     char *nombre;
     int tipo;
-    char *poder;
+    int poder;
     int powerpoints;
 };
 

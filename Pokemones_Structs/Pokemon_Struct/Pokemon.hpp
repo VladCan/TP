@@ -7,6 +7,9 @@
 
 #ifndef POKEMON_HPP
 #define POKEMON_HPP
+
+#include "Moves.hpp"
+
 //#include "Moves.hpp";
 struct Pokemon {
     int ID;
@@ -15,7 +18,7 @@ struct Pokemon {
     int stats[7];
     int generation;
     bool isLegendary;
-    struct Moves *PokemonMoves;
+    struct Moves *PokemonMoves=new struct Moves[200];
     int cantMoves = 0;
 };
 
