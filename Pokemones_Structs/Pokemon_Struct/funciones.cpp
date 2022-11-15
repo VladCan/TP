@@ -130,25 +130,20 @@ void escribirLinea(ofstream &arch, int cant, char c) {
 }
 
 void batallaPokemon(struct Pokemon *pokemons, int cantPokemons) {
-
+    srand(time(0));
     struct Pokemon equipoA[6];
 
     struct Pokemon equipoB[6];
-    int E1_1, E1_2, E1_3, E1_4, E1_5, E1_6;
-    int E2_1, E2_2, E2_3, E2_4, E2_5, E2_6;
-
-    valoresAleatorios(E1_1, E1_2, E1_3, E1_4, E1_5, E1_6, E2_1, E2_2, E2_3, E2_4, E2_5, E2_6);
-
-    llenarEquipo(equipoA, pokemons, E1_1, E1_2, E1_3, E1_4, E1_5, E1_6);
-    llenarEquipo(equipoB, pokemons, E2_1, E2_2, E2_3, E2_4, E2_5, E2_6);
-
+    
     int HP_Max_EquipoA = 0;
     for (int i = 0; i < 6; i++) {
+        equipoA[i] = pokemons[rand() % 150 + 1];
         HP_Max_EquipoA += equipoA[i].stats[1];
     }
 
     int HP_Max_EquipoB = 0;
     for (int i = 0; i < 6; i++) {
+        equipoB[i] = pokemons[rand() % 150 + 1];
         HP_Max_EquipoB += equipoB[i].stats[1];
     }
     escribirReporteBatalla(equipoA, equipoB, HP_Max_EquipoA, HP_Max_EquipoB);
@@ -229,53 +224,25 @@ void estadisticasEquipoB(ofstream &archBatalla, struct Pokemon *equipoB) {
 }
 
 int mejorPokemonEnLaEstadisticaX(struct Pokemon *equipo, int x) {
-    int mayor;
+    int mayor=0;
     int posision;
     for (int i = 0; i < 6; i++) {
-        mayor = equipo[i].stats[x];
-        for (int j = i; j < 6; j++) {
-            if (equipo[j].stats[x] > mayor)
-                posision = j;
+        if (equipo[i].stats[x] > mayor){
+            mayor=equipo[i].stats[x];
+            posision = i;
         }
     }
     return posision;
 }
 
 int peorPokemonEnLaEstadisticaX(struct Pokemon *equipo, int x) {
-    int menor;
+    int menor = 250;
     int posision;
     for (int i = 0; i < 6; i++) {
-        menor = equipo[i].stats[x];
-        for (int j = i; j < 6; j++) {
-            if (equipo[j].stats[x] < menor)
-                posision = j;
+        if (equipo[i].stats[x] < menor){
+            menor=equipo[i].stats[x] ;
+            posision = i;
         }
     }
     return posision;
-}
-
-void valoresAleatorios(int &E1_1, int & E1_2, int & E1_3, int & E1_4, int & E1_5, int & E1_6, int &E2_1,
-        int & E2_2, int & E2_3, int & E2_4, int & E2_5, int & E2_6) {
-    srand(time(0));
-    E1_1 = rand() % 150 + 1; // E1_1 in the range 1 to 150
-    E1_2 = rand() % 150 + 1; // E1_2 in the range 1 to 150
-    E1_3 = rand() % 150 + 1; // E1_3 in the range 1 to 150
-    E1_4 = rand() % 150 + 1; // E1_4 in the range 1 to 150
-    E1_5 = rand() % 150 + 1; // E1_5 in the range 1 to 150
-    E1_6 = rand() % 150 + 1; // E1_6 in the range 1 to 150
-    E2_1 = rand() % 150 + 1; // E2_1 in the range 1 to 150
-    E2_2 = rand() % 150 + 1; // E2_2 in the range 1 to 150
-    E2_3 = rand() % 150 + 1; // E2_3 in the range 1 to 150
-    E2_4 = rand() % 150 + 1; // E2_4 in the range 1 to 150
-    E2_5 = rand() % 150 + 1; // E2_5 in the range 1 to 150
-    E2_6 = rand() % 150 + 1; // E2_6 in the range 1 to 150
-}
-
-void llenarEquipo(struct Pokemon *equipo, struct Pokemon *pokemons, int v1, int v2, int v3, int v4, int v5, int v6) {
-    equipo[0] = pokemons[v1];
-    equipo[1] = pokemons[v2];
-    equipo[2] = pokemons[v3];
-    equipo[3] = pokemons[v4];
-    equipo[4] = pokemons[v5];
-    equipo[5] = pokemons[v6];
 }
