@@ -4,6 +4,10 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
+      <itemPath>Oracion.hpp</itemPath>
+      <itemPath>Palabra.hpp</itemPath>
+      <itemPath>Personaje.hpp</itemPath>
+      <itemPath>funciones.hpp</itemPath>
     </logicalFolder>
     <logicalFolder name="ResourceFiles"
                    displayName="Resource Files"
@@ -12,6 +16,7 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>funciones.cpp</itemPath>
       <itemPath>main.cpp</itemPath>
     </logicalFolder>
     <logicalFolder name="TestFiles"
@@ -36,6 +41,16 @@
       </toolsSet>
       <compileType>
       </compileType>
+      <item path="Oracion.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Palabra.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Personaje.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="funciones.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
@@ -59,6 +74,16 @@
           <developmentMode>5</developmentMode>
         </asmTool>
       </compileType>
+      <item path="Oracion.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Palabra.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Personaje.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="funciones.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="funciones.hpp" ex="false" tool="3" flavor2="0">
+      </item>
       <item path="main.cpp" ex="false" tool="1" flavor2="0">
       </item>
     </conf>
