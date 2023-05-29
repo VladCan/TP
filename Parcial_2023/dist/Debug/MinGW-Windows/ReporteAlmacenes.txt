@@ -1,0 +1,12 @@
+                              DETALLE DE MOVIMIENTOS DE ALMACENES
+====================================================================================================
+Almacen: 10004 - Almacen San Miguel
+Distrito : 15094
+Almacen: 10001 - Almacen Jesus Maria
+Distrito : 15084
+Almacen: 10003 - Almacen San Juan De Miraflores
+Distrito : 15085
+Almacen: 10005 - Alamacen Central
+Distrito : 15166
+Almacen: 10007 - Almacen Villa Maria Del Triunfo
+Distrito : 15156
